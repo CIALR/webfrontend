@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>个人简历</title>
+<head>
+    <meta charset="UTF-8">
+	<title>个人简历</title>
+	<link rel="shortcut icon" href="images/boshi.jpg"/>
+	<link rel="stylesheet" type="text/css" href = "css/common.css">
+	<link rel="stylesheet" type="text/css" href = "css/index.css">
+    <script type="text/javascript" src = "js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src = "js/index.js"></script>
+	<script type="text/javascript" src = "js/index.js"></script>
+</head>
+ 
+<body>
+   <canvas id="stars"></canvas>
+    <div id = "personal-resume-main">
+    	<!-- 个人信息 -->
+      <div id = "resume-informat">
+           <!-- 头像 -->
+           <div class = "header-image">
+                <script type="text/javascript">
+					$(function(){
+						$("#imageHeader").click(function(){
+                            $("#loginbox").fadeIn();
+                            $("body").append("<div id = 'mask'></div>");
+                            $("#mask").addClass("mask").fadeIn("slow");
+						});
+
+						$(".submit").click(function(){
+							$("#loginbox").fadeOut();
+							$("#mask").fadeOut("slow");
+							$("#imageHeader").attr("disabled","disabled");
+						});
+					});
+                </script>
+
+                 <figure>
+                  	<img src = "images/handsome.png" id = "imageHeader"/>
+                 </figure>
+                 <h2>程序猿</h2>
+           </div>
+           <!-- 头像 -->
+           <div class = "personal-info">
+           	   <div class = "status">
+                  <h3>个人信息</h3>
+                  <div class = "status-content">
+                      <table>
+                         <tr>
+                           <td>姓 &nbsp &nbsp &nbsp名：</td>
+                           <td>徐文才</td>
+                         </tr>
+                         <tr>
+                           <td>性 &nbsp &nbsp &nbsp别：</td>
+                           <td>男</td>
+                         </tr>
+                         <tr>
+                           <td>出生年月：</td>
+                           <td>1996.04.15</td>
+                         </tr>
+                          <tr>
+                           <td>籍 &nbsp &nbsp &nbsp贯：</td>
+                           <td>河南省周口市</td>
+                         </tr>
+                         <tr>
+                           <td>工 &nbsp &nbsp &nbsp作：</td>
+                           <td>程序员</td>
+                         </tr>
+                      </table>
+                  </div>
+               </div>
+
+               <div class = "interest">
+                  <h3>兴趣爱好</h3>
+                  <div class = "interest-content">
+                      <span>
+                         <dl>
+                            <dt><img src = "images/student.jpg"></dt>
+                            <dd>读书</dd>
+                         </dl>
+                      </span>
+
+                      <span>
+                         <dl>
+                            <dt><img src = "images/student.jpg"></dt>
+                            <dd>读书</dd>
+                         </dl>
+                      </span>
+                      <span>
+                         <dl>
+                            <dt><img src = "images/student.jpg"></dt>
+                            <dd>读书</dd>
+                         </dl>
+                      </span>
+                      <span>
+                         <dl>
+                            <dt><img src = "images/student.jpg"></dt>
+                            <dd>读书</dd>
+                         </dl>
+                      </span>
+                  </div>
+               </div>
+           </div>
+      </div>
+
+      <!-- 个人信息 -->
+     
+      <!-- 简历内容 -->
+      <div id = "resume-content">
+      	 <!-- 教育背景 -->
+      	  <div class = "educate-background">
+              <h2>
+              	<li><img src = "images/student.jpg"/></li>
+                <li class = "underline">教育背景</li>
+              </h2>
+              <div class = "content">
+                <!--  2016年9月-2020年6月 &nbsp 河南大学 &nbsp 计算机与信息工程学院
+                 
+                  <p> -->
+                  <table>
+                    <tr>
+                      <td>2016.09-2016.06</td>
+                      <td>河南大学</td>
+                      <td>软件工程</td>
+                      <td>一本</td>
+                    </tr>
+                    <tr>
+                      <td>主修课程:</td>
+                      <td colspan="3" style = "text-alig">
+                        JAVA基础,C Shape,C++,MySQL数据库,JavaWeb,JSP,</p>Servlet,计算机操作系统,计算机网络,软件工程等</td>
+                    </tr>
+                  </table>
+              </div>
+      	  </div>
+      	  <!-- 教育背景 -->
+
+          <!-- 项目经历 -->
+      	  <div class = "work-skill">
+              <h2>
+                <li><img src = "images/student.jpg"/></li>
+                <li class = "underline">项目经历</li>
+              </h2>
+              <div class = "content">
+                	<p>
+    	              	<a href = "#">
+    	                	<span style = "float:left">
+    	                		1. 个人简历
+    	                	</span>
+    	                </a>
+    	            </p>
+                    <p>
+            	      	<a href = "#">
+            	            <span style = "float:left">
+            	                2.网络爬虫系统
+            	            </span>
+            	        </a>
+                	</p>
+                 
+                    <p>
+    	                 <a href = "#">
+    	                	<span style = "float:left">
+    	                		3. 个人博客
+    	                	</span>
+    	                </a>
+                	</p>
+              
+                   <p>
+	                 <a href = "#">
+	                	<span style = "float:left">
+	                		   4.二手车估价系统
+	                	</span>
+	                 </a>
+	             </p>
+              </div>
+      	  </div>
+      	 <!-- 项目经历 -->
+
+
+       <!-- 荣誉简历 -->
+  	      <div class = "honorary-award">
+	          <h2>
+	          	<li><img src = "images/student.jpg"/></li>
+	            <li class = "underline">荣誉奖励</li>
+	          </h2>
+	          <div class = "content" style = "height:55px;">
+	          	<ul>
+	              <li>河南大学奖学金及河南大学三好学生</li>
+	              <li>"华为杯" C Shape竞赛三等奖 </li>
+	              <li>校级数学建模二等奖 </li>
+	            </ul>
+	          </div>
+      	  </div>
+      	  <!-- 荣誉简历 -->
+        
+          <!-- 技能特长 -->
+          <div class = "majoys-skill">
+         	  <h2>
+             	<li><img src = "images/student.jpg"/></li>
+                <li class = "underline">技能特长</li>
+              </h2>
+
+              <div class = "content">
+                 <ul>
+                   <li>1.在tomcat下,熟练使用idea编译器</li>
+                   <li>2.熟悉javascript,jquery,css,html等前端</li>
+                   <li>3.数据库主要使用mysql</li>
+                   <li>4.可以使用c语言,c++等编程语言</li>
+                   <li>5.有规范的开发文档写作能力</li>
+                 </ul>
+              </div>
+         </div>
+          <!-- 技能特长 -->
+      	</div>
+      </div>
+ 
+
+      <!-- 登录界面设计 -->
+       <div id = "loginbox" style = "display: none;">
+        <form action="" method="">
+          <table class = "logintable">
+          	 <tr>
+          	 	<td><label for="username">用户名：</label></td>
+          	 	<td><input type="text" name="username" value="" class = "txt"></td>
+          	 </tr>
+
+          	 <tr>
+          	 	<td><label for="password">密&nbsp;&nbsp;&nbsp;码：</label></td>
+          	 	<td><input type="password" name="password" value="" class = "txt"></td>
+          	 </tr>
+
+             <tr class = "choice">
+          	 	<td colspan="2">
+          	 		<input type="radio" name="" value = "登录"/>登录
+          	 		<input type="radio" name="" value = "注册"/>注册
+          	 	</td>
+          	 </tr>
+
+          	 <tr class = "btn">
+          	 	<td colspan="2">
+          	 		<input type="submit" name="submmit" value = "登录" class = "submit"/>
+          	 	</td>
+          	 </tr>
+
+          	 
+          </table>
+        </form>
+   </div>
+</body>
+</html>

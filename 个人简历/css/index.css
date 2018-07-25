@@ -1,0 +1,306 @@
+#personal-resume-main{
+    position:absolute;
+    top:10%;
+    left:50%;
+    margin-left:-350px;
+    margin-right:-350px;
+	width: 700px;
+    border-radius: 5px;
+}
+
+#resume-informat{
+    float: left;
+    width: 180px;
+    height: 800px;
+    border-top-left-radius: 5px;
+    background: rgba(51,51,102,.3);
+}
+
+.header-image figure img{
+    margin:30px auto;
+	width: 100px;
+    height: 100px;
+    display: block;
+	border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-image h2{
+   margin-top: -20px;
+   text-align: center;
+   font-size: 15px;
+   color: #ffffff;
+}
+
+.personal-info{
+    margin-top: 30px;
+    width: 180px;
+	height: 150px;
+}
+
+.status{
+    float: left;
+    margin-top: 20px;
+    width: 180px;
+    height: 200px;
+}
+
+.status h3,.interest h3{
+   padding-left: 25px;
+   display: block;
+   width: 155px;
+   height: 30px;
+   line-height: 30px;
+   color: #ffffff;
+   border-top:1px solid dashed #c0c0c0;
+   border-bottom: 1px dashed #c0c0c0;
+   background-repeat: no-repeat;
+   background-size: 20px 20px;
+   background-position: 0px 3px;
+}
+
+.status-content table{
+    width: 180px;
+    color: #ffffff;
+}
+
+.status-content table tr{
+    width: 180px;
+    height: 30px;
+}
+
+.status-content table tr td:first-child{
+   text-align: right;
+}
+
+.interest{
+    float: left;
+    margin-top: 40px;
+    width: 180px;
+    height: 200px;
+}
+
+.interest span{
+    width: 70px;
+    height: 50px;
+    margin: 20px 0 0 14px;
+    float: left;
+}
+
+.interest span dl {
+    width: 70px;
+    height: 50px;
+}
+
+.interest span dl dt{
+    width: 70px;
+    height:30px;
+}
+
+.interest span dl dt img{
+   width: 70px;
+   height: 30px;
+}
+
+.interest span dl dd{
+    height: 20px;
+    width:68px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#resume-content{
+    width: 489px;
+    height: 775px;
+    float: right;
+    padding-top: 25px;
+    padding-left: 30px;
+    background: rgba(255,255,255,.3);
+    border-top-right-radius: 5px;
+}
+
+#resume-content ul li img{
+    width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.information ul{
+	padding-top: 10px;
+    padding-bottom: 20px;
+	text-align: left;
+}
+
+.information ul li{
+	font-size: 10px;
+	line-height: 30px;
+	padding-left: 18px;
+	color: #ffffff;
+}
+
+
+
+.educate-background h2 img,
+.work-skill h2 img,
+.honorary-award h2 img,
+.majoys-skill h2 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.educate-background h2 li,
+.work-skill h2 li,
+.honorary-award h2 li,
+.majoys-skill h2 li{
+	height: 30px;
+	line-height: 30px;
+	margin-left: 10px;
+	float: left;
+}
+
+.educate-background h2,
+.work-skill h2,
+.honorary-award h2,
+.majoys-skill h2{
+    color: #333366;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.educate-background{
+	height: 200px;
+	width: 465px;
+	float: left;
+    border-bottom: 1px dashed rgba(200,200,200,.5);
+}
+
+.underline{
+	width: 395px;
+	border-bottom: 1px solid rgba(120,120,120,.5);
+}
+
+.content{
+	height: 130px;
+	width: 420px;
+	margin: 50px auto;
+	padding-top: 5px;
+	color: #333366;
+	border: 1px dashed rgba(120,120,120,.5);
+}
+
+.content table{
+    width:420px;
+    height:130px;
+}
+
+.content table tr{
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    border-bottom:1px dashed rgba(120,120,120,.5);
+}
+
+.work-skill{
+    height: 200px;
+    width: 465px;
+    float: left;
+    margin-top: 10px;
+    border-bottom: 1px dashed rgba(120,120,120,.5);
+}
+
+.work-skill .content p{
+	height: 30px;
+	width: 420;
+	line-height: 30px;
+	padding-left: 20px;
+}
+
+.work-skill .content p a span{
+	color: #333366;
+}
+
+.honorary-award{
+    height: 150px;
+    width: 465px;
+    float: left;
+    margin-top: 10px;
+}
+
+.honorary-award .content ul li{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 3px;
+}
+
+.honorary-award .content{
+	color: #333366;
+	font-size: 14px;
+}
+
+.majoys-skill{
+	float: left;
+}
+
+.majoys-skill .content{
+	height: 120px;
+	padding-left: 10px;
+}
+
+.majoys-skill .content ul li{
+	height: 20x;
+	line-height: 20px;
+}
+
+.logintable{
+     position:absolute;
+     top:50%;
+     left:50%;
+     margin-left:-175px;
+     margin-top:-100px;
+     height:200px;
+     width:350px;
+     border:2px solid #c0c0c0;
+     z-index:100000;
+}
+
+.logintable tr{
+    width:300px;
+    height:30px;
+    border:2px solid #c0c0c0;
+}
+
+.logintable tr td{
+     border:2px solid #c0c0c0;
+     text-align:right;
+}
+
+.logintable .btn{
+    text-align: center;
+}
+
+.txt{
+  width:230px;
+  outline: none;
+}
+
+.mask{
+    margin:0;
+    padding:0;
+    border:none;
+    width:100%;
+    height:100%;
+    background:#333;
+    opacity:0.3;
+    filter:alpha(opacity=60);
+    z-index:9999;
+    position:fixed;
+    top:0;
+    left:0;
+    display:none;
+}
